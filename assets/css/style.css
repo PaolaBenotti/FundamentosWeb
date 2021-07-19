@@ -1,0 +1,60 @@
+/*
+ESTILO INDEX
+*/
+.center{
+    text-align: center;
+}
+.p1 {
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px; ;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+    color: salmon;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.tm{
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.cor{
+    color: salmon;
+}
+
+/*
+ESTILO CONTATO
+*/
+
+.cor{
+    color: salmon;
+}
