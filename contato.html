@@ -25,11 +25,14 @@
     </p>
     <div class="center">
         <form for="Nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        </form>
+        <input type="text" id="nome" onkeyup="validaNome()">
+        <div id="txtNome"></div>
+    
+    </form>
 
         <form for="email">E-mail:</label> <br>
-            <input type="email" id="email">
+            <input type="email" id="email" onkeyup="validaEmail()">
+            <div id="txtEmail"></div>            
             </form>
 
             <form for="assunto">Assunto:</label> <br>
@@ -61,6 +64,8 @@
                 
         
             </footer>
+
+            <script src="assets/js/script.js"></script>
    
 </body>
 </html>
